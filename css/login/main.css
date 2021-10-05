@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html{    background:url('file:///D:/WEB/SAE/img/bg.png') no-repeat;
+  background-size: cover;
+  height:100%;
+}
+
+#feedback-page{
+    text-align:center;
+}
+
+#form-main{
+    width:100%;
+    float:left;
+    padding-top:0px;
+    border-radius: 0%;
+}
+
+#form-div {
+    background-color:rgba(255, 255, 255, 0.568);
+    padding-left:3%;
+    padding-right:3%;
+    padding-top:3%;
+    padding-bottom:5%;
+    width: 35%;
+    left: 55%;
+    position: absolute;
+  margin-top:15%;
+    margin-left: -260px;
+border-radius: 3px;
+border:rgba(204, 204, 204, 0.678) 1px solid;
+}
+
+.feedback-input {
+    color:#3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+    font-size: 15px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: #fbfbfb;
+    padding: 13px 13px 13px 14px;
+    margin-bottom: 10px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  border: 1px solid rgba(0,0,0,0.18);
+}
+
+@media only screen and (max-width: 580px) {
+    #form-div{
+        left: 3%;
+        margin-right: 3%;
+        width: 88%;
+        margin-left: 0;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+.msk{
+  background-color:#339CC4;
+  border: none;
+    border-radius: 3px;
+    width: 100%;
+    color: white;
+    padding: 15px 20px;
+    font-weight: 500;
+}
